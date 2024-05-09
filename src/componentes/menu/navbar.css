@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/holen-vintage');
+@import url('https://fonts.cdnfonts.com/css/libre-bodoni-2');
+
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #4c462c;
+    margin: 0px;
+}
+
+.logo{
+    width: 90px;
+    height: 95px;
+}
+
+.LinksLog > p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Holen Vintage', sans-serif;
+    font-size: 20px;
+    margin: 0 5px;
+    color: #e5ddb5;
+                                                
+}
+
+.LogoIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containermp {
+    height: 100vh;
+    width: fit-content;
+    position: -ms-page;
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Libre Bodoni', sans-serif;
+    font-size: 22px;
+                                                
+}
+
+.Links > * {
+    margin: 0 20px;
+    color: #e5ddb5;
+}
+
+.Links > *:hover {
+    color: #332d19; 
+}
